@@ -765,7 +765,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="scp_mw_knife_01_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="scp_mw_knife_01_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -774,9 +774,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="scp_mw_knife_01_(1)_joint" type="fixed">
+   <joint name="scp_mw_knife_01_1_joint" type="fixed">
       <origin rpy="0 180 180" xyz="-18.216 3.686 8.407" />
-      <child link="scp_mw_knife_01_(1)" />
+      <child link="scp_mw_knife_01_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -813,7 +813,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="scp_mw_knife_01_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="scp_mw_knife_01_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -822,9 +822,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="scp_mw_knife_01_(2)_joint" type="fixed">
+   <joint name="scp_mw_knife_01_2_joint" type="fixed">
       <origin rpy="0 180 180" xyz="-18.216 3.723 8.699" />
-      <child link="scp_mw_knife_01_(2)" />
+      <child link="scp_mw_knife_01_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -877,7 +877,7 @@
       <axis xyz="0 1 0" />
       <limit effort="300" lower="-3.141593" upper="1.570796" velocity="10" />
    </joint>
-   <link name="Door_02_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Door_02_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -886,14 +886,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Door_02_(1)_joint" type="fixed">
+   <joint name="Door_02_1_joint" type="fixed">
       <origin rpy="0 343.9 0" xyz="3.702 -1.045 -11.03" />
-      <child link="Door_02_(1)" />
+      <child link="Door_02_1" />
       <parent link="room_link" />
       <axis xyz="0 1 0" />
       <limit effort="300" lower="-1.815142" upper="1.570796" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -902,14 +902,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(1)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_1_joint" type="fixed">
       <origin rpy="0 270 0" xyz="3.444 -0.573 -2.16" />
-      <child link="SI_Env_Wall_01_(1)" />
+      <child link="SI_Env_Wall_01_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -918,14 +918,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(2)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_2_joint" type="fixed">
       <origin rpy="0 270 0" xyz="3.444 -0.573 -16.26" />
-      <child link="SI_Env_Wall_01_(2)" />
+      <child link="SI_Env_Wall_01_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Door_Small_01_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Door_Small_01_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -934,14 +934,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Door_Small_01_(1)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Door_Small_01_1_joint" type="fixed">
       <origin rpy="0 270 0" xyz="3.444 -0.573 -8.77" />
-      <child link="SI_Env_Wall_Door_Small_01_(1)" />
+      <child link="SI_Env_Wall_Door_Small_01_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -950,14 +950,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(4)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_4_joint" type="fixed">
       <origin rpy="0 270 180" xyz="3.444 11.427 -28.6875" />
-      <child link="SI_Env_Wall_01_(4)" />
+      <child link="SI_Env_Wall_01_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -966,14 +966,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(3)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_3_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-6.1679 -0.573 11.19" />
-      <child link="SI_Env_Wall_01_(3)" />
+      <child link="SI_Env_Wall_01_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -982,14 +982,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(5)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_5_joint" type="fixed">
       <origin rpy="0 180 180" xyz="3.448 11.427 11.19" />
-      <child link="SI_Env_Wall_01_(5)" />
+      <child link="SI_Env_Wall_01_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -998,14 +998,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(6)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_6_joint" type="fixed">
       <origin rpy="0 180 180" xyz="-16.127 11.427 11.19" />
-      <child link="SI_Env_Wall_01_(6)" />
+      <child link="SI_Env_Wall_01_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(7)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_7" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1014,14 +1014,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(7)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_7_joint" type="fixed">
       <origin rpy="0 90 180" xyz="-18.3 11.427 11.19" />
-      <child link="SI_Env_Wall_01_(7)" />
+      <child link="SI_Env_Wall_01_7" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(8)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_8" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1030,14 +1030,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(8)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_8_joint" type="fixed">
       <origin rpy="0 90 180" xyz="-18.3 11.427 -21.4041" />
-      <child link="SI_Env_Wall_01_(8)" />
+      <child link="SI_Env_Wall_01_8" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(9)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_9" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1046,14 +1046,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(9)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_9_joint" type="fixed">
       <origin rpy="0 90 180" xyz="-18.3 11.427 -11.3813" />
-      <child link="SI_Env_Wall_01_(9)" />
+      <child link="SI_Env_Wall_01_9" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Large_Window_05_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Large_Window_05_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1062,14 +1062,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Large_Window_05_(1)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Large_Window_05_1_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.3 2.47 -11.41" />
-      <child link="SI_Env_Wall_Large_Window_05_(1)" />
+      <child link="SI_Env_Wall_Large_Window_05_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Large_Window_05_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Large_Window_05_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1078,14 +1078,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Large_Window_05_(2)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Large_Window_05_2_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.3 2.47 -21.42" />
-      <child link="SI_Env_Wall_Large_Window_05_(2)" />
+      <child link="SI_Env_Wall_Large_Window_05_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1094,14 +1094,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(1)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_1_joint" type="fixed">
       <origin rpy="0 90 90" xyz="-18.31 11.4261 -21.739" />
-      <child link="SI_Env_Wall_CornerBlock_large_(1)" />
+      <child link="SI_Env_Wall_CornerBlock_large_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(10)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_10" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1110,14 +1110,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(10)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_10_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-18.31 -0.573 11.19" />
-      <child link="SI_Env_Wall_01_(10)" />
+      <child link="SI_Env_Wall_01_10" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(11)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_11" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1126,14 +1126,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(11)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_11_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.3 -0.573 -3.9779" />
-      <child link="SI_Env_Wall_01_(11)" />
+      <child link="SI_Env_Wall_01_11" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(12)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_12" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1142,14 +1142,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(12)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_12_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.3 -0.573 -14.118" />
-      <child link="SI_Env_Wall_01_(12)" />
+      <child link="SI_Env_Wall_01_12" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(13)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_13" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1158,14 +1158,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(13)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_13_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.3 -0.573 -28.715" />
-      <child link="SI_Env_Wall_01_(13)" />
+      <child link="SI_Env_Wall_01_13" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(14)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_14" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1174,14 +1174,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(14)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_14_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.284 -3.714 -21.787" />
-      <child link="SI_Env_Wall_01_(14)" />
+      <child link="SI_Env_Wall_01_14" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(15)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_15" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1190,14 +1190,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(15)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_15_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.284 -3.714 -11.9077" />
-      <child link="SI_Env_Wall_01_(15)" />
+      <child link="SI_Env_Wall_01_15" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1206,14 +1206,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(2)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_2_joint" type="fixed">
       <origin rpy="0 90 90" xyz="-18.31 -0.6823 -21.739" />
-      <child link="SI_Env_Wall_CornerBlock_large_(2)" />
+      <child link="SI_Env_Wall_CornerBlock_large_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Large_Window_05_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Large_Window_05_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1222,14 +1222,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Large_Window_05_(3)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Large_Window_05_3_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-8.72 2.47 -28.58" />
-      <child link="SI_Env_Wall_Large_Window_05_(3)" />
+      <child link="SI_Env_Wall_Large_Window_05_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Large_Window_05_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Large_Window_05_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1238,14 +1238,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Large_Window_05_(4)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Large_Window_05_4_joint" type="fixed">
       <origin rpy="0 0 0" xyz="1.11 2.47 -28.58" />
-      <child link="SI_Env_Wall_Large_Window_05_(4)" />
+      <child link="SI_Env_Wall_Large_Window_05_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(16)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_16" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1254,14 +1254,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(16)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_16_joint" type="fixed">
       <origin rpy="0 0 180" xyz="-18.26 11.427 -28.58" />
-      <child link="SI_Env_Wall_01_(16)" />
+      <child link="SI_Env_Wall_01_16" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(17)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_17" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1270,14 +1270,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(17)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_17_joint" type="fixed">
       <origin rpy="0 0 180" xyz="-8.7521 11.427 -28.58" />
-      <child link="SI_Env_Wall_01_(17)" />
+      <child link="SI_Env_Wall_01_17" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(18)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_18" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1286,14 +1286,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(18)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_18_joint" type="fixed">
       <origin rpy="0 0 180" xyz="1.102 11.427 -28.58" />
-      <child link="SI_Env_Wall_01_(18)" />
+      <child link="SI_Env_Wall_01_18" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(19)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_19" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1302,14 +1302,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(19)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_19_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-15.7779 -0.573 -28.58" />
-      <child link="SI_Env_Wall_01_(19)" />
+      <child link="SI_Env_Wall_01_19" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(20)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_20" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1318,14 +1318,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(20)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_20_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-6.27 -0.573 -28.58" />
-      <child link="SI_Env_Wall_01_(20)" />
+      <child link="SI_Env_Wall_01_20" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(21)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_21" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1334,14 +1334,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(21)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_21_joint" type="fixed">
       <origin rpy="0 0 0" xyz="5.9476 -0.573 -28.58" />
-      <child link="SI_Env_Wall_01_(21)" />
+      <child link="SI_Env_Wall_01_21" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(22)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_22" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1350,14 +1350,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(22)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_22_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-8.6709 -3.69 -28.58" />
-      <child link="SI_Env_Wall_01_(22)" />
+      <child link="SI_Env_Wall_01_22" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(23)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_23" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1366,14 +1366,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(23)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_23_joint" type="fixed">
       <origin rpy="0 0 0" xyz="1.181 -3.69 -28.58" />
-      <child link="SI_Env_Wall_01_(23)" />
+      <child link="SI_Env_Wall_01_23" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1382,14 +1382,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(3)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_3_joint" type="fixed">
       <origin rpy="0 0 90" xyz="1.17 11.42 -28.59" />
-      <child link="SI_Env_Wall_CornerBlock_large_(3)" />
+      <child link="SI_Env_Wall_CornerBlock_large_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1398,14 +1398,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(4)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_4_joint" type="fixed">
       <origin rpy="0 0 90" xyz="1.22 -0.6124 -28.59" />
-      <child link="SI_Env_Wall_CornerBlock_large_(4)" />
+      <child link="SI_Env_Wall_CornerBlock_large_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1414,14 +1414,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(5)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_5_joint" type="fixed">
       <origin rpy="0 0 90" xyz="-6.1333 0.6365 11.1834" />
-      <child link="SI_Env_Wall_CornerBlock_large_(5)" />
+      <child link="SI_Env_Wall_CornerBlock_large_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1430,14 +1430,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(6)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_6_joint" type="fixed">
       <origin rpy="0 0 90" xyz="-16.1421 5.4293 11.1834" />
-      <child link="SI_Env_Wall_CornerBlock_large_(6)" />
+      <child link="SI_Env_Wall_CornerBlock_large_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(7)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_7" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1446,14 +1446,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(7)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_7_joint" type="fixed">
       <origin rpy="0 0 90" xyz="-3.972 5.4293 11.1834" />
-      <child link="SI_Env_Wall_CornerBlock_large_(7)" />
+      <child link="SI_Env_Wall_CornerBlock_large_7" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Large_Window_05_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Large_Window_05_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1462,14 +1462,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Large_Window_05_(5)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Large_Window_05_5_joint" type="fixed">
       <origin rpy="0 0 0" xyz="13.41 2.47 -28.58" />
-      <child link="SI_Env_Wall_Large_Window_05_(5)" />
+      <child link="SI_Env_Wall_Large_Window_05_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(24)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_24" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1478,14 +1478,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(24)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_24_joint" type="fixed">
       <origin rpy="0 0 0" xyz="13.481 -3.69 -28.58" />
-      <child link="SI_Env_Wall_01_(24)" />
+      <child link="SI_Env_Wall_01_24" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(8)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_8" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1494,14 +1494,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(8)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_8_joint" type="fixed">
       <origin rpy="0 0 90" xyz="13.492 11.42 -28.59" />
-      <child link="SI_Env_Wall_CornerBlock_large_(8)" />
+      <child link="SI_Env_Wall_CornerBlock_large_8" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(9)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_9" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1510,14 +1510,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(9)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_9_joint" type="fixed">
       <origin rpy="0 0 90" xyz="13.52 -0.612 -28.59" />
-      <child link="SI_Env_Wall_CornerBlock_large_(9)" />
+      <child link="SI_Env_Wall_CornerBlock_large_9" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(25)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_25" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1526,14 +1526,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(25)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_25_joint" type="fixed">
       <origin rpy="0 0 180" xyz="13.396 11.427 -28.58" />
-      <child link="SI_Env_Wall_01_(25)" />
+      <child link="SI_Env_Wall_01_25" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(26)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_26" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1542,14 +1542,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(26)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_26_joint" type="fixed">
       <origin rpy="0 0 0" xyz="18.794 -0.573 -28.58" />
-      <child link="SI_Env_Wall_01_(26)" />
+      <child link="SI_Env_Wall_01_26" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Large_Window_05_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Large_Window_05_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1558,14 +1558,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Large_Window_05_(6)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Large_Window_05_6_joint" type="fixed">
       <origin rpy="0 270.0002 0" xyz="18.73 3.6 -16.163" />
-      <child link="SI_Env_Wall_Large_Window_05_(6)" />
+      <child link="SI_Env_Wall_Large_Window_05_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(27)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_27" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1574,14 +1574,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(27)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_27_joint" type="fixed">
       <origin rpy="0 270.0002 0" xyz="18.73 -2.56 -16.074" />
-      <child link="SI_Env_Wall_01_(27)" />
+      <child link="SI_Env_Wall_01_27" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(10)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_10" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1590,14 +1590,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(10)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_10_joint" type="fixed">
       <origin rpy="0 270.0002 90" xyz="18.74 11.42 -16.061" />
-      <child link="SI_Env_Wall_CornerBlock_large_(10)" />
+      <child link="SI_Env_Wall_CornerBlock_large_10" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_CornerBlock_large_(11)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_CornerBlock_large_11" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1606,14 +1606,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_CornerBlock_large_(11)_joint" type="fixed">
+   <joint name="SI_Env_Wall_CornerBlock_large_11_joint" type="fixed">
       <origin rpy="0 270.0002 90" xyz="18.74 -0.612 -16.026" />
-      <child link="SI_Env_Wall_CornerBlock_large_(11)" />
+      <child link="SI_Env_Wall_CornerBlock_large_11" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(28)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_28" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1622,14 +1622,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(28)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_28_joint" type="fixed">
       <origin rpy="0 270.0002 180" xyz="18.70999 11.427 -30.908" />
-      <child link="SI_Env_Wall_01_(28)" />
+      <child link="SI_Env_Wall_01_28" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(29)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_29" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1638,14 +1638,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(29)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_29_joint" type="fixed">
       <origin rpy="0 270.0002 0" xyz="18.71 -0.573 -25.4816" />
-      <child link="SI_Env_Wall_01_(29)" />
+      <child link="SI_Env_Wall_01_29" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(30)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_30" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1654,14 +1654,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(30)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_30_joint" type="fixed">
       <origin rpy="0 270.0002 180" xyz="18.70999 11.427 -16.178" />
-      <child link="SI_Env_Wall_01_(30)" />
+      <child link="SI_Env_Wall_01_30" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(31)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_31" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1670,14 +1670,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(31)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_31_joint" type="fixed">
       <origin rpy="0 270.0002 0" xyz="18.71 -0.573 -1.0812" />
-      <child link="SI_Env_Wall_01_(31)" />
+      <child link="SI_Env_Wall_01_31" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(32)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_32" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1686,14 +1686,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(32)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_32_joint" type="fixed">
       <origin rpy="0 180.0003 180" xyz="18.72 11.427 -10.23" />
-      <child link="SI_Env_Wall_01_(32)" />
+      <child link="SI_Env_Wall_01_32" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(33)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_33" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1702,14 +1702,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(33)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_33_joint" type="fixed">
       <origin rpy="0 180.0003 0" xyz="3.4992 -0.573 -10.23" />
-      <child link="SI_Env_Wall_01_(33)" />
+      <child link="SI_Env_Wall_01_33" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(34)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_34" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1718,14 +1718,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(34)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_34_joint" type="fixed">
       <origin rpy="0 90.0005 180" xyz="3.5201 11.427 -10.1001" />
-      <child link="SI_Env_Wall_01_(34)" />
+      <child link="SI_Env_Wall_01_34" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_01_(35)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_01_35" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1734,14 +1734,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_01_(35)_joint" type="fixed">
+   <joint name="SI_Env_Wall_01_35_joint" type="fixed">
       <origin rpy="0 90.0005 0" xyz="3.52 -0.573 -28.613" />
-      <child link="SI_Env_Wall_01_(35)" />
+      <child link="SI_Env_Wall_01_35" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SI_Env_Wall_Door_Small_01_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SI_Env_Wall_Door_Small_01_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1750,9 +1750,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SI_Env_Wall_Door_Small_01_(2)_joint" type="fixed">
+   <joint name="SI_Env_Wall_Door_Small_01_2_joint" type="fixed">
       <origin rpy="0 90.00011 0" xyz="3.52 -0.573 -16.27" />
-      <child link="SI_Env_Wall_Door_Small_01_(2)" />
+      <child link="SI_Env_Wall_Door_Small_01_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -1821,7 +1821,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1830,14 +1830,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(1)_joint" type="fixed">
+   <joint name="Wall_01_Blue_1_joint" type="fixed">
       <origin rpy="0 270 0" xyz="19.055 -0.692461 11.321" />
-      <child link="Wall_01_Blue_(1)" />
+      <child link="Wall_01_Blue_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1846,14 +1846,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(2)_joint" type="fixed">
+   <joint name="Wall_01_Blue_2_joint" type="fixed">
       <origin rpy="0 270 179.9997" xyz="19.055 11.43 -1.2792" />
-      <child link="Wall_01_Blue_(2)" />
+      <child link="Wall_01_Blue_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1862,14 +1862,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(3)_joint" type="fixed">
+   <joint name="Wall_01_Blue_3_joint" type="fixed">
       <origin rpy="0 180.0002 0" xyz="3.4759 -0.692461 11.2" />
-      <child link="Wall_01_Blue_(3)" />
+      <child link="Wall_01_Blue_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1878,14 +1878,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(4)_joint" type="fixed">
+   <joint name="Wall_01_Blue_4_joint" type="fixed">
       <origin rpy="8.837917E-12 180.0002 179.9997" xyz="19.0838 11.43 11.19998" />
-      <child link="Wall_01_Blue_(4)" />
+      <child link="Wall_01_Blue_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1894,14 +1894,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(5)_joint" type="fixed">
+   <joint name="Wall_01_Blue_5_joint" type="fixed">
       <origin rpy="0 90.00033 0" xyz="3.525944 -0.692461 3.596399" />
-      <child link="Wall_01_Blue_(5)" />
+      <child link="Wall_01_Blue_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1910,9 +1910,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(6)_joint" type="fixed">
+   <joint name="Wall_01_Blue_6_joint" type="fixed">
       <origin rpy="-5.211021E-11 90.00033 179.9997" xyz="3.526 11.4293 11.248" />
-      <child link="Wall_01_Blue_(6)" />
+      <child link="Wall_01_Blue_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -1933,7 +1933,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(7)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_7" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1942,14 +1942,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(7)_joint" type="fixed">
+   <joint name="Wall_01_Blue_7_joint" type="fixed">
       <origin rpy="0 0.0004934811 0" xyz="19.0899 -0.692461 -1.04" />
-      <child link="Wall_01_Blue_(7)" />
+      <child link="Wall_01_Blue_7" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Wall_01_Blue_(8)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Wall_01_Blue_8" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -1958,9 +1958,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Wall_01_Blue_(8)_joint" type="fixed">
+   <joint name="Wall_01_Blue_8_joint" type="fixed">
       <origin rpy="-1.08926E-11 0.0004934811 179.9997" xyz="3.5217 11.43 -1.039911" />
-      <child link="Wall_01_Blue_(8)" />
+      <child link="Wall_01_Blue_8" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -2157,7 +2157,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Drawer_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Drawer_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2166,14 +2166,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Drawer_(1)_joint" type="fixed">
+   <joint name="Drawer_1_joint" type="fixed">
       <origin rpy="0 90 -4.829673E-06" xyz="4.68 0.07999611 -24.74" />
-      <child link="Drawer_(1)" />
+      <child link="Drawer_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Drawer_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Drawer_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2182,14 +2182,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Drawer_(2)_joint" type="fixed">
+   <joint name="Drawer_2_joint" type="fixed">
       <origin rpy="0 270 4.829673E-06" xyz="17.739 0.07999992 -25.5" />
-      <child link="Drawer_(2)" />
+      <child link="Drawer_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Bookshelf_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Bookshelf_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2198,9 +2198,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Bookshelf_(1)_joint" type="fixed">
+   <joint name="Bookshelf_1_joint" type="fixed">
       <origin rpy="-6.830189E-06 0 0" xyz="16.07 2.529997 -27.99" />
-      <child link="Bookshelf_(1)" />
+      <child link="Bookshelf_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -2221,7 +2221,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2230,14 +2230,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(1)_joint" type="fixed">
+   <joint name="Floor_Wood_1_joint" type="fixed">
       <origin rpy="0 0 0" xyz="6.059996 -0.9189987 -16.55999" />
-      <child link="Floor_Wood_(1)" />
+      <child link="Floor_Wood_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2246,14 +2246,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(2)_joint" type="fixed">
+   <joint name="Floor_Wood_2_joint" type="fixed">
       <origin rpy="0 0 0" xyz="6.060001 -0.9190006 -21.56" />
-      <child link="Floor_Wood_(2)" />
+      <child link="Floor_Wood_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2262,14 +2262,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(3)_joint" type="fixed">
+   <joint name="Floor_Wood_3_joint" type="fixed">
       <origin rpy="0 0 0" xyz="6.060007 -0.9190006 -26.56001" />
-      <child link="Floor_Wood_(3)" />
+      <child link="Floor_Wood_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2278,14 +2278,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(4)_joint" type="fixed">
+   <joint name="Floor_Wood_4_joint" type="fixed">
       <origin rpy="0 0 0" xyz="11.06 -0.9190025 -11.55999" />
-      <child link="Floor_Wood_(4)" />
+      <child link="Floor_Wood_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2294,14 +2294,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(5)_joint" type="fixed">
+   <joint name="Floor_Wood_5_joint" type="fixed">
       <origin rpy="0 0 0" xyz="11.06 -0.9189987 -16.55999" />
-      <child link="Floor_Wood_(5)" />
+      <child link="Floor_Wood_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2310,14 +2310,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(6)_joint" type="fixed">
+   <joint name="Floor_Wood_6_joint" type="fixed">
       <origin rpy="0 0 0" xyz="11.06 -0.9190006 -21.56001" />
-      <child link="Floor_Wood_(6)" />
+      <child link="Floor_Wood_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(7)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_7" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2326,14 +2326,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(7)_joint" type="fixed">
+   <joint name="Floor_Wood_7_joint" type="fixed">
       <origin rpy="0 0 0" xyz="11.06 -0.9190044 -26.56002" />
-      <child link="Floor_Wood_(7)" />
+      <child link="Floor_Wood_7" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(8)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_8" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2342,14 +2342,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(8)_joint" type="fixed">
+   <joint name="Floor_Wood_8_joint" type="fixed">
       <origin rpy="0 0 0" xyz="16.06 -0.9190025 -11.55999" />
-      <child link="Floor_Wood_(8)" />
+      <child link="Floor_Wood_8" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(9)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_9" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2358,14 +2358,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(9)_joint" type="fixed">
+   <joint name="Floor_Wood_9_joint" type="fixed">
       <origin rpy="0 0 0" xyz="16.06 -0.9189987 -16.56" />
-      <child link="Floor_Wood_(9)" />
+      <child link="Floor_Wood_9" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(10)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_10" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2374,14 +2374,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(10)_joint" type="fixed">
+   <joint name="Floor_Wood_10_joint" type="fixed">
       <origin rpy="0 0 0" xyz="16.06 -0.9190006 -21.56002" />
-      <child link="Floor_Wood_(10)" />
+      <child link="Floor_Wood_10" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Wood_(11)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Wood_11" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2390,9 +2390,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Wood_(11)_joint" type="fixed">
+   <joint name="Floor_Wood_11_joint" type="fixed">
       <origin rpy="0 0 0" xyz="16.06 -0.9190044 -26.56002" />
-      <child link="Floor_Wood_(11)" />
+      <child link="Floor_Wood_11" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -2413,7 +2413,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_Curtains_Red_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_Curtains_Red_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2422,9 +2422,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_Curtains_Red_(1)_joint" type="fixed">
+   <joint name="Prop_Curtains_Red_1_joint" type="fixed">
       <origin rpy="-1.207425E-05 270.0002 4.105219E-05" xyz="18.78 5.799974 -20.82001" />
-      <child link="Prop_Curtains_Red_(1)" />
+      <child link="Prop_Curtains_Red_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -2493,7 +2493,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2502,14 +2502,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_joint" type="fixed">
+   <joint name="Cube_1_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.018 1.7092 -3.550002" />
-      <child link="Cube_(1)" />
+      <child link="Cube_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2518,14 +2518,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_joint" type="fixed">
+   <joint name="Cube_2_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.018 4.3293 -2.178802" />
-      <child link="Cube_(2)" />
+      <child link="Cube_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2534,14 +2534,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_joint" type="fixed">
+   <joint name="Cube_3_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.018 2.7033 -2.178804" />
-      <child link="Cube_(3)" />
+      <child link="Cube_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2550,14 +2550,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(4)_joint" type="fixed">
+   <joint name="Cube_4_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.01801 -0.832 -2.178806" />
-      <child link="Cube_(4)" />
+      <child link="Cube_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2566,14 +2566,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(5)_joint" type="fixed">
+   <joint name="Cube_5_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.9742 1.7165 -2.178802" />
-      <child link="Cube_(5)" />
+      <child link="Cube_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2582,14 +2582,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(6)_joint" type="fixed">
+   <joint name="Cube_6_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.018 1.39 -2.178804" />
-      <child link="Cube_(6)" />
+      <child link="Cube_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(7)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_7" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2598,9 +2598,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(7)_joint" type="fixed">
+   <joint name="Cube_7_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.018 0.1500001 -2.178804" />
-      <child link="Cube_(7)" />
+      <child link="Cube_7" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -2685,7 +2685,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(4)_65253" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_4_65253" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2694,14 +2694,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(4)_65253_joint" type="fixed">
+   <joint name="Cube_4_65253_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.4512 1.194 4.155298" />
-      <child link="Cube_(4)_65253" />
+      <child link="Cube_4_65253" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(5)_89013" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_5_89013" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2710,14 +2710,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(5)_89013_joint" type="fixed">
+   <joint name="Cube_5_89013_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.4512 0.5015 5.768798" />
-      <child link="Cube_(5)_89013" />
+      <child link="Cube_5_89013" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(6)_41405" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_6_41405" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2726,14 +2726,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(6)_41405_joint" type="fixed">
+   <joint name="Cube_6_41405_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.4512 1.9925 7.261599" />
-      <child link="Cube_(6)_41405" />
+      <child link="Cube_6_41405" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(7)_79703" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_7_79703" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2742,14 +2742,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(7)_79703_joint" type="fixed">
+   <joint name="Cube_7_79703_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.451 0.5015 7.292499" />
-      <child link="Cube_(7)_79703" />
+      <child link="Cube_7_79703" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(4)_56488" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_4_56488" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2758,9 +2758,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(4)_56488_joint" type="fixed">
+   <joint name="Cube_4_56488_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.274 -0.8744001 7.302999" />
-      <child link="Cube_(4)_56488" />
+      <child link="Cube_4_56488" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -2797,7 +2797,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_86271" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_86271" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2806,14 +2806,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_86271_joint" type="fixed">
+   <joint name="Cube_1_86271_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-17.7031 1.5943 2.569999" />
-      <child link="Cube_(1)_86271" />
+      <child link="Cube_1_86271" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_31866" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_31866" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2822,14 +2822,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_31866_joint" type="fixed">
+   <joint name="Cube_2_31866_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-17.703 1.5943 5.687999" />
-      <child link="Cube_(2)_31866" />
+      <child link="Cube_2_31866" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_28928" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_28928" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -2838,9 +2838,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_28928_joint" type="fixed">
+   <joint name="Cube_3_28928_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.923 1.3083 4.128599" />
-      <child link="Cube_(3)_28928" />
+      <child link="Cube_3_28928" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3069,7 +3069,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_33376" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_33376" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3078,14 +3078,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_33376_joint" type="fixed">
+   <joint name="Cube_1_33376_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.274 -0.8744001 4.126998" />
-      <child link="Cube_(1)_33376" />
+      <child link="Cube_1_33376" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_99358" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_99358" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3094,14 +3094,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_99358_joint" type="fixed">
+   <joint name="Cube_2_99358_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.274 0.1075 2.590997" />
-      <child link="Cube_(2)_99358" />
+      <child link="Cube_2_99358" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_76169" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_76169" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3110,9 +3110,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_76169_joint" type="fixed">
+   <joint name="Cube_3_76169_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.274 0.1075 5.663" />
-      <child link="Cube_(3)_76169" />
+      <child link="Cube_3_76169" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3229,7 +3229,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_66524" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_66524" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3238,14 +3238,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_66524_joint" type="fixed">
+   <joint name="Cube_1_66524_joint" type="fixed">
       <origin rpy="-4.325711E-06 90.00001 0" xyz="-17.39 2.52 1.433998" />
-      <child link="Cube_(1)_66524" />
+      <child link="Cube_1_66524" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_8193" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_8193" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3254,14 +3254,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_8193_joint" type="fixed">
+   <joint name="Cube_2_8193_joint" type="fixed">
       <origin rpy="-4.325711E-06 90.00001 0" xyz="-17.39 2.0782 2.197699" />
-      <child link="Cube_(2)_8193" />
+      <child link="Cube_2_8193" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_62137" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_62137" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3270,14 +3270,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_62137_joint" type="fixed">
+   <joint name="Cube_3_62137_joint" type="fixed">
       <origin rpy="-4.325711E-06 90.00001 0" xyz="-17.39 2.968 2.197999" />
-      <child link="Cube_(3)_62137" />
+      <child link="Cube_3_62137" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(4)_14793" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_4_14793" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3286,9 +3286,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(4)_14793_joint" type="fixed">
+   <joint name="Cube_4_14793_joint" type="fixed">
       <origin rpy="-4.325711E-06 90.00001 0" xyz="-17.9106 2.5267 2.197999" />
-      <child link="Cube_(4)_14793" />
+      <child link="Cube_4_14793" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3389,7 +3389,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_70777" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_70777" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3398,14 +3398,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_70777_joint" type="fixed">
+   <joint name="Cube_1_70777_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.131595 0.8602 10.4106" />
-      <child link="Cube_(1)_70777" />
+      <child link="Cube_1_70777" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_70553" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_70553" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3414,14 +3414,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_70553_joint" type="fixed">
+   <joint name="Cube_2_70553_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.803396 1.1202 10.4106" />
-      <child link="Cube_(2)_70553" />
+      <child link="Cube_2_70553" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_59990" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_59990" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3430,9 +3430,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_59990_joint" type="fixed">
+   <joint name="Cube_3_59990_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-6.469993 1.1202 10.411" />
-      <child link="Cube_(3)_59990" />
+      <child link="Cube_3_59990" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3469,7 +3469,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_87286" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_87286" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3478,14 +3478,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_87286_joint" type="fixed">
+   <joint name="Cube_1_87286_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.131595 0.2772001 10.4106" />
-      <child link="Cube_(1)_87286" />
+      <child link="Cube_1_87286" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_70115" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_70115" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3494,14 +3494,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_70115_joint" type="fixed">
+   <joint name="Cube_2_70115_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.803396 0.5372 10.4106" />
-      <child link="Cube_(2)_70115" />
+      <child link="Cube_2_70115" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_92970" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_92970" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3510,9 +3510,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_92970_joint" type="fixed">
+   <joint name="Cube_3_92970_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-6.469993 0.5372 10.411" />
-      <child link="Cube_(3)_92970" />
+      <child link="Cube_3_92970" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3549,7 +3549,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_33534" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_33534" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3558,14 +3558,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_33534_joint" type="fixed">
+   <joint name="Cube_1_33534_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.131595 -0.3077999 10.4106" />
-      <child link="Cube_(1)_33534" />
+      <child link="Cube_1_33534" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_61029" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_61029" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3574,14 +3574,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_61029_joint" type="fixed">
+   <joint name="Cube_2_61029_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.803396 -0.0478 10.4106" />
-      <child link="Cube_(2)_61029" />
+      <child link="Cube_2_61029" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_73054" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_73054" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3590,9 +3590,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_73054_joint" type="fixed">
+   <joint name="Cube_3_73054_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-6.469993 -0.0478 10.411" />
-      <child link="Cube_(3)_73054" />
+      <child link="Cube_3_73054" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3629,7 +3629,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(1)_12959" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_1_12959" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3638,14 +3638,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(1)_12959_joint" type="fixed">
+   <joint name="Cube_1_12959_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.131595 -0.8898 10.4106" />
-      <child link="Cube_(1)_12959" />
+      <child link="Cube_1_12959" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(2)_60947" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_2_60947" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3654,14 +3654,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(2)_60947_joint" type="fixed">
+   <joint name="Cube_2_60947_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-7.803396 -0.6298 10.4106" />
-      <child link="Cube_(2)_60947" />
+      <child link="Cube_2_60947" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(3)_83299" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_3_83299" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3670,9 +3670,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(3)_83299_joint" type="fixed">
+   <joint name="Cube_3_83299_joint" type="fixed">
       <origin rpy="0 180 0" xyz="-6.469993 -0.6298 10.411" />
-      <child link="Cube_(3)_83299" />
+      <child link="Cube_3_83299" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -3805,7 +3805,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(4)_49644" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_4_49644" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3814,14 +3814,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(4)_49644_joint" type="fixed">
+   <joint name="Cube_4_49644_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-10.9812 -0.862 10.1388" />
-      <child link="Cube_(4)_49644" />
+      <child link="Cube_4_49644" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(5)_74574" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_5_74574" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3830,14 +3830,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(5)_74574_joint" type="fixed">
+   <joint name="Cube_5_74574_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-15.61611 0.5071 10.1388" />
-      <child link="Cube_(5)_74574" />
+      <child link="Cube_5_74574" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(6)_77647" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_6_77647" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3846,14 +3846,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(6)_77647_joint" type="fixed">
+   <joint name="Cube_6_77647_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-14.17001 0.5071 10.139" />
-      <child link="Cube_(6)_77647" />
+      <child link="Cube_6_77647" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(7)_63222" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_7_63222" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3862,14 +3862,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(7)_63222_joint" type="fixed">
+   <joint name="Cube_7_63222_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-12.6616 0.5071 10.139" />
-      <child link="Cube_(7)_63222" />
+      <child link="Cube_7_63222" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(8)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_8" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3878,14 +3878,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(8)_joint" type="fixed">
+   <joint name="Cube_8_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-9.369199 0.5071 10.139" />
-      <child link="Cube_(8)" />
+      <child link="Cube_8" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(9)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_9" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3894,14 +3894,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(9)_joint" type="fixed">
+   <joint name="Cube_9_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-6.354995 0.5071 10.14" />
-      <child link="Cube_(9)" />
+      <child link="Cube_9" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(10)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_10" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3910,14 +3910,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(10)_joint" type="fixed">
+   <joint name="Cube_10_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-7.849197 0.2898 10.139" />
-      <child link="Cube_(10)" />
+      <child link="Cube_10" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(11)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_11" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3926,14 +3926,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(11)_joint" type="fixed">
+   <joint name="Cube_11_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-12.4913 1.986 10.1388" />
-      <child link="Cube_(11)" />
+      <child link="Cube_11" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(12)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_12" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3942,14 +3942,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(12)_joint" type="fixed">
+   <joint name="Cube_12_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-10.981 0.5684 11.166" />
-      <child link="Cube_(12)" />
+      <child link="Cube_12" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Cube_(13)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Cube_13" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3958,14 +3958,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Cube_(13)_joint" type="fixed">
+   <joint name="Cube_13_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-7.810497 1.466 10.1388" />
-      <child link="Cube_(13)" />
+      <child link="Cube_13" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Bookshelf_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Bookshelf_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -3974,9 +3974,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Bookshelf_(2)_joint" type="fixed">
+   <joint name="Bookshelf_2_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-17.705 4.031 8.915998" />
-      <child link="Bookshelf_(2)" />
+      <child link="Bookshelf_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4093,7 +4093,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="appleGreen_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="appleGreen_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4102,14 +4102,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="appleGreen_(1)_joint" type="fixed">
+   <joint name="appleGreen_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-17.665 2.456 4.159999" />
-      <child link="appleGreen_(1)" />
+      <child link="appleGreen_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="radish_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="radish_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4118,14 +4118,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="radish_(1)_joint" type="fixed">
+   <joint name="radish_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-17.271 2.87 9.940001" />
-      <child link="radish_(1)" />
+      <child link="radish_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="potatoYellow_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="potatoYellow_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4134,14 +4134,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="potatoYellow_(1)_joint" type="fixed">
+   <joint name="potatoYellow_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-16.461 2.337 10.235" />
-      <child link="potatoYellow_(1)" />
+      <child link="potatoYellow_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="radish_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="radish_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4150,9 +4150,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="radish_(2)_joint" type="fixed">
+   <joint name="radish_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-17.271 2.87 9.681" />
-      <child link="radish_(2)" />
+      <child link="radish_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4189,7 +4189,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Saucer_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Saucer_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4198,14 +4198,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Saucer_(1)_joint" type="fixed">
+   <joint name="SM_Saucer_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.66 -0.1549988 9.659996" />
-      <child link="SM_Saucer_(1)" />
+      <child link="SM_Saucer_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Saucer_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Saucer_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4214,14 +4214,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Saucer_(2)_joint" type="fixed">
+   <joint name="SM_Saucer_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.66 0.1450043 9.659996" />
-      <child link="SM_Saucer_(2)" />
+      <child link="SM_Saucer_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Saucer_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Saucer_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4230,9 +4230,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Saucer_(3)_joint" type="fixed">
+   <joint name="SM_Saucer_3_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.66 0.3450012 9.659996" />
-      <child link="SM_Saucer_(3)" />
+      <child link="SM_Saucer_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4253,7 +4253,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_26cm_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_26cm_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4262,14 +4262,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_26cm_(1)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_26cm_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.668575 1.315002 9.868156" />
-      <child link="SM_Plate_Classic_26cm_(1)" />
+      <child link="SM_Plate_Classic_26cm_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_26cm_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_26cm_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4278,14 +4278,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_26cm_(2)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_26cm_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.668575 1.639999 9.868156" />
-      <child link="SM_Plate_Classic_26cm_(2)" />
+      <child link="SM_Plate_Classic_26cm_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_26cm_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_26cm_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4294,9 +4294,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_26cm_(3)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_26cm_3_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.668575 1.914993 9.868156" />
-      <child link="SM_Plate_Classic_26cm_(3)" />
+      <child link="SM_Plate_Classic_26cm_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4317,7 +4317,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_21cm_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_21cm_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4326,14 +4326,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_21cm_(1)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_21cm_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.125576 1.544998 9.605" />
-      <child link="SM_Plate_Classic_21cm_(1)" />
+      <child link="SM_Plate_Classic_21cm_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_21cm_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_21cm_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4342,14 +4342,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_21cm_(2)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_21cm_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.125576 1.789993 9.605" />
-      <child link="SM_Plate_Classic_21cm_(2)" />
+      <child link="SM_Plate_Classic_21cm_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_21cm_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_21cm_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4358,9 +4358,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_21cm_(3)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_21cm_3_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.125576 2.080002 9.605" />
-      <child link="SM_Plate_Classic_21cm_(3)" />
+      <child link="SM_Plate_Classic_21cm_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4381,7 +4381,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_16cm_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_16cm_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4390,14 +4390,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_16cm_(1)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_16cm_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.125576 3.070007 9.749996" />
-      <child link="SM_Plate_Classic_16cm_(1)" />
+      <child link="SM_Plate_Classic_16cm_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_16cm_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_16cm_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4406,14 +4406,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_16cm_(2)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_16cm_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.125576 3.285004 9.749996" />
-      <child link="SM_Plate_Classic_16cm_(2)" />
+      <child link="SM_Plate_Classic_16cm_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Plate_Classic_16cm_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Plate_Classic_16cm_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4422,9 +4422,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Plate_Classic_16cm_(3)_joint" type="fixed">
+   <joint name="SM_Plate_Classic_16cm_3_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.125576 3.535004 9.749996" />
-      <child link="SM_Plate_Classic_16cm_(3)" />
+      <child link="SM_Plate_Classic_16cm_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4445,7 +4445,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Bowl_Small_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Bowl_Small_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4454,14 +4454,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Bowl_Small_(1)_joint" type="fixed">
+   <joint name="SM_Bowl_Small_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-1.385574 4.880005 9.640499" />
-      <child link="SM_Bowl_Small_(1)" />
+      <child link="SM_Bowl_Small_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Bowl_Small_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Bowl_Small_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4470,14 +4470,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Bowl_Small_(2)_joint" type="fixed">
+   <joint name="SM_Bowl_Small_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-0.7055731 4.405502 9.6405" />
-      <child link="SM_Bowl_Small_(2)" />
+      <child link="SM_Bowl_Small_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Bowl_Small_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Bowl_Small_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4486,9 +4486,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Bowl_Small_(3)_joint" type="fixed">
+   <joint name="SM_Bowl_Small_3_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-0.7055731 4.880005 9.6405" />
-      <child link="SM_Bowl_Small_(3)" />
+      <child link="SM_Bowl_Small_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4509,7 +4509,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Bowl_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Bowl_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4518,14 +4518,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Bowl_(1)_joint" type="fixed">
+   <joint name="SM_Bowl_1_joint" type="fixed">
       <origin rpy="270 0 0" xyz="0.5294275 3.315002 9.759998" />
-      <child link="SM_Bowl_(1)" />
+      <child link="SM_Bowl_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Bowl_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Bowl_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4534,14 +4534,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Bowl_(2)_joint" type="fixed">
+   <joint name="SM_Bowl_2_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.850574 2.816498 9.759998" />
-      <child link="SM_Bowl_(2)" />
+      <child link="SM_Bowl_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="SM_Bowl_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="SM_Bowl_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4550,9 +4550,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="SM_Bowl_(3)_joint" type="fixed">
+   <joint name="SM_Bowl_3_joint" type="fixed">
       <origin rpy="270 0 0" xyz="-2.850574 3.315002 9.759998" />
-      <child link="SM_Bowl_(3)" />
+      <child link="SM_Bowl_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4653,7 +4653,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4662,14 +4662,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(1)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_1_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-17.37 -0.919 3.899999" />
-      <child link="Floor_Carpet_Tiles_(1)" />
+      <child link="Floor_Carpet_Tiles_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4678,14 +4678,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(2)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_2_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-17.37 -0.919 8.9" />
-      <child link="Floor_Carpet_Tiles_(2)" />
+      <child link="Floor_Carpet_Tiles_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4694,14 +4694,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(3)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_3_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-13.44 -0.919 -1.1" />
-      <child link="Floor_Carpet_Tiles_(3)" />
+      <child link="Floor_Carpet_Tiles_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(4)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_4" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4710,14 +4710,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(4)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_4_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-13.44 -0.919 3.9" />
-      <child link="Floor_Carpet_Tiles_(4)" />
+      <child link="Floor_Carpet_Tiles_4" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(5)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_5" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4726,14 +4726,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(5)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_5_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-13.44001 -0.919 8.900002" />
-      <child link="Floor_Carpet_Tiles_(5)" />
+      <child link="Floor_Carpet_Tiles_5" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(6)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_6" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4742,14 +4742,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(6)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_6_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-8.440003 -0.919 -1.100001" />
-      <child link="Floor_Carpet_Tiles_(6)" />
+      <child link="Floor_Carpet_Tiles_6" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(7)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_7" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4758,14 +4758,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(7)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_7_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-8.440003 -0.919 3.899999" />
-      <child link="Floor_Carpet_Tiles_(7)" />
+      <child link="Floor_Carpet_Tiles_7" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Floor_Carpet_Tiles_(8)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Floor_Carpet_Tiles_8" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4774,14 +4774,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Floor_Carpet_Tiles_(8)_joint" type="fixed">
+   <joint name="Floor_Carpet_Tiles_8_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-8.440004 -0.919 8.900002" />
-      <child link="Floor_Carpet_Tiles_(8)" />
+      <child link="Floor_Carpet_Tiles_8" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_shelf_01_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_shelf_01_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4790,9 +4790,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_shelf_01_(1)_joint" type="fixed">
+   <joint name="Prop_shelf_01_1_joint" type="fixed">
       <origin rpy="0 270 0" xyz="3.060003 3.35026 -5.55" />
-      <child link="Prop_shelf_01_(1)" />
+      <child link="Prop_shelf_01_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4829,7 +4829,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Chair_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Chair_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4838,14 +4838,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Chair_(1)_joint" type="fixed">
+   <joint name="Chair_1_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-11.28 0.806 -9.308001" />
-      <child link="Chair_(1)" />
+      <child link="Chair_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Chair_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Chair_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4854,14 +4854,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Chair_(2)_joint" type="fixed">
+   <joint name="Chair_2_joint" type="fixed">
       <origin rpy="0 270 0" xyz="-16.64 0.806 -6.28" />
-      <child link="Chair_(2)" />
+      <child link="Chair_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Chair_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Chair_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4870,9 +4870,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Chair_(3)_joint" type="fixed">
+   <joint name="Chair_3_joint" type="fixed">
       <origin rpy="0 270 0" xyz="-16.64 0.806 -9.308001" />
-      <child link="Chair_(3)" />
+      <child link="Chair_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4909,7 +4909,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_Curtains_Blue_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_Curtains_Blue_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4918,9 +4918,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_Curtains_Blue_(1)_joint" type="fixed">
+   <joint name="Prop_Curtains_Blue_1_joint" type="fixed">
       <origin rpy="0 0 0" xyz="-12.51 -3.415 -28.52" />
-      <child link="Prop_Curtains_Blue_(1)" />
+      <child link="Prop_Curtains_Blue_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -4973,7 +4973,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_Curtains_Blue_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_Curtains_Blue_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4982,14 +4982,14 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_Curtains_Blue_(2)_joint" type="fixed">
+   <joint name="Prop_Curtains_Blue_2_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.17 -3.415 -17.66" />
-      <child link="Prop_Curtains_Blue_(2)" />
+      <child link="Prop_Curtains_Blue_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_Curtains_Blue_(3)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_Curtains_Blue_3" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -4998,9 +4998,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_Curtains_Blue_(3)_joint" type="fixed">
+   <joint name="Prop_Curtains_Blue_3_joint" type="fixed">
       <origin rpy="0 90 0" xyz="-18.17 -3.415 -7.8" />
-      <child link="Prop_Curtains_Blue_(3)" />
+      <child link="Prop_Curtains_Blue_3" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -5069,7 +5069,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_Speaker_02_(1)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_Speaker_02_1" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -5078,9 +5078,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_Speaker_02_(1)_joint" type="fixed">
+   <joint name="Prop_Speaker_02_1_joint" type="fixed">
       <origin rpy="0 315 0" xyz="2.58 -0.919 -27.5" />
-      <child link="Prop_Speaker_02_(1)" />
+      <child link="Prop_Speaker_02_1" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -5133,7 +5133,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="Prop_Shelf_011_(2)" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="Prop_Shelf_011_2" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -5142,9 +5142,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="Prop_Shelf_011_(2)_joint" type="fixed">
+   <joint name="Prop_Shelf_011_2_joint" type="fixed">
       <origin rpy="0 270 0" xyz="3.16 -0.919 -8.66" />
-      <child link="Prop_Shelf_011_(2)" />
+      <child link="Prop_Shelf_011_2" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
@@ -5181,7 +5181,7 @@
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
    </joint>
-   <link name="scp_mw_knife_01_(2)_92314" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
+   <link name="scp_mw_knife_01_2_92314" label="http://www.ease-crc.org/ont/SOMA.owl#PhysicalObject">
       <sphere_inertia mass="0" radius="0" />
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
@@ -5190,9 +5190,9 @@
          </geometry>
       </visual>
    </link>
-   <joint name="scp_mw_knife_01_(2)_92314_joint" type="fixed">
+   <joint name="scp_mw_knife_01_2_92314_joint" type="fixed">
       <origin rpy="3.585849E-05 105.2766 89.99985" xyz="-17.627 2.183 8.666" />
-      <child link="scp_mw_knife_01_(2)_92314" />
+      <child link="scp_mw_knife_01_2_92314" />
       <parent link="room_link" />
       <axis xyz="0 0 0" />
       <limit effort="300" lower="0" upper="0" velocity="10" />
