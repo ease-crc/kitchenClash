@@ -18,7 +18,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/tomato.fbx" />
+            <mesh filename="package://h_neem/meshes/tomato.dae" />
          </geometry>
       </visual>
    </link>
@@ -34,7 +34,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/lettuce.fbx" />
+            <mesh filename="package://h_neem/meshes/lettuce.dae" />
          </geometry>
       </visual>
    </link>
@@ -50,7 +50,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/lemon.fbx" />
+            <mesh filename="package://h_neem/meshes/lemon.dae" />
          </geometry>
       </visual>
    </link>
@@ -66,7 +66,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/garlic.fbx" />
+            <mesh filename="package://h_neem/meshes/garlic.dae" />
          </geometry>
       </visual>
    </link>
@@ -82,7 +82,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/fig.fbx" />
+            <mesh filename="package://h_neem/meshes/fig.dae" />
          </geometry>
       </visual>
    </link>
@@ -98,7 +98,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/eggplant.fbx" />
+            <mesh filename="package://h_neem/meshes/eggplant.dae" />
          </geometry>
       </visual>
    </link>
@@ -114,7 +114,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/chiliPepper.fbx" />
+            <mesh filename="package://h_neem/meshes/chiliPepper.dae" />
          </geometry>
       </visual>
    </link>
@@ -130,7 +130,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/cherry.fbx" />
+            <mesh filename="package://h_neem/meshes/cherry.dae" />
          </geometry>
       </visual>
    </link>
@@ -146,7 +146,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/cauliflower.fbx" />
+            <mesh filename="package://h_neem/meshes/cauliflower.dae" />
          </geometry>
       </visual>
    </link>
@@ -162,7 +162,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/broccoli.fbx" />
+            <mesh filename="package://h_neem/meshes/broccoli.dae" />
          </geometry>
       </visual>
    </link>
@@ -178,7 +178,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/bellPepperOrange.fbx" />
+            <mesh filename="package://h_neem/meshes/bellPepperOrange.dae" />
          </geometry>
       </visual>
    </link>
@@ -194,7 +194,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/bellPepperOrange.fbx" />
+            <mesh filename="package://h_neem/meshes/bellPepperOrange.dae" />
          </geometry>
       </visual>
    </link>
@@ -210,7 +210,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/bellPepperOrange.fbx" />
+            <mesh filename="package://h_neem/meshes/bellPepperOrange.dae" />
          </geometry>
       </visual>
    </link>
@@ -226,7 +226,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/apricot.fbx" />
+            <mesh filename="package://h_neem/meshes/apricot.dae" />
          </geometry>
       </visual>
    </link>
@@ -802,7 +802,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2482,7 +2482,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2498,7 +2498,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2514,7 +2514,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2530,7 +2530,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2546,7 +2546,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2562,7 +2562,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2578,7 +2578,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2594,7 +2594,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2626,7 +2626,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2658,7 +2658,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2690,7 +2690,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2706,7 +2706,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2722,7 +2722,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2738,7 +2738,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2754,7 +2754,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2786,7 +2786,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2802,7 +2802,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2818,7 +2818,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -2834,7 +2834,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3058,7 +3058,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3074,7 +3074,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3090,7 +3090,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3106,7 +3106,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3138,7 +3138,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3170,7 +3170,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3218,7 +3218,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3234,7 +3234,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3250,7 +3250,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3266,7 +3266,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3282,7 +3282,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3314,7 +3314,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3346,7 +3346,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3378,7 +3378,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3394,7 +3394,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3410,7 +3410,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3426,7 +3426,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3458,7 +3458,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3474,7 +3474,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3490,7 +3490,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3506,7 +3506,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3538,7 +3538,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3554,7 +3554,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3570,7 +3570,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3586,7 +3586,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3618,7 +3618,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3634,7 +3634,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3650,7 +3650,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3666,7 +3666,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3698,7 +3698,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3730,7 +3730,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3762,7 +3762,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3794,7 +3794,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3810,7 +3810,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3826,7 +3826,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3842,7 +3842,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3858,7 +3858,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3874,7 +3874,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3890,7 +3890,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3906,7 +3906,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3922,7 +3922,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3938,7 +3938,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3954,7 +3954,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -3986,7 +3986,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/appleGreen.fbx" />
+            <mesh filename="package://h_neem/meshes/appleGreen.dae" />
          </geometry>
       </visual>
    </link>
@@ -4002,7 +4002,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/radish.fbx" />
+            <mesh filename="package://h_neem/meshes/radish.dae" />
          </geometry>
       </visual>
    </link>
@@ -4018,7 +4018,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/cucumber.fbx" />
+            <mesh filename="package://h_neem/meshes/cucumber.dae" />
          </geometry>
       </visual>
    </link>
@@ -4034,7 +4034,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/banana.fbx" />
+            <mesh filename="package://h_neem/meshes/banana.dae" />
          </geometry>
       </visual>
    </link>
@@ -4050,7 +4050,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/potatoBrown.fbx" />
+            <mesh filename="package://h_neem/meshes/potatoBrown.dae" />
          </geometry>
       </visual>
    </link>
@@ -4066,7 +4066,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/pawpaw.fbx" />
+            <mesh filename="package://h_neem/meshes/pawpaw.dae" />
          </geometry>
       </visual>
    </link>
@@ -4082,7 +4082,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/appleRed.fbx" />
+            <mesh filename="package://h_neem/meshes/appleRed.dae" />
          </geometry>
       </visual>
    </link>
@@ -4098,7 +4098,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/appleGreen.fbx" />
+            <mesh filename="package://h_neem/meshes/appleGreen.dae" />
          </geometry>
       </visual>
    </link>
@@ -4114,7 +4114,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/radish.fbx" />
+            <mesh filename="package://h_neem/meshes/radish.dae" />
          </geometry>
       </visual>
    </link>
@@ -4130,7 +4130,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/potatoBrown.fbx" />
+            <mesh filename="package://h_neem/meshes/potatoBrown.dae" />
          </geometry>
       </visual>
    </link>
@@ -4146,7 +4146,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/radish.fbx" />
+            <mesh filename="package://h_neem/meshes/radish.dae" />
          </geometry>
       </visual>
    </link>
@@ -4162,7 +4162,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/carrot.fbx" />
+            <mesh filename="package://h_neem/meshes/carrot.dae" />
          </geometry>
       </visual>
    </link>
@@ -5394,7 +5394,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
@@ -5410,7 +5410,7 @@
       <visual>
          <origin rpy="0 0 0" xyz="0 0 0" />
          <geometry>
-            <mesh filename="package://h_neem/meshes/Cube.fbx" />
+            <mesh filename="package://h_neem/meshes/Cube.dae" />
          </geometry>
       </visual>
    </link>
