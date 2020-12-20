@@ -18,9 +18,6 @@
          xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#">
     <owl:Ontology rdf:about="http://knowrob.org/kb/Kitchen-clash.owl">
         <owl:imports rdf:resource="http://www.ease-crc.org/ont/SOMA.owl"/>
-        <owl:imports rdf:resource="package://iai_kitchen/owl/iai-kitchen-knowledge.owl"/>
-        <owl:imports rdf:resource="package://knowrob/owl/srdl2.owl"/>
-        <owl:imports rdf:resource="package://iai_kitchen/owl/iai-kitchen-objects.owl"/>
     </owl:Ontology>
 
     <!--
