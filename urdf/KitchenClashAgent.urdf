@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="agent.urdf">
+
+    <link name="Player">
+   </link>
+   <link name="Head">
+      <sphere_inertia mass="0" radius="0" />
+	<visual>
+         <geometry>
+            <sphere radius="0.2"/>
+         </geometry>
+      </visual>
+   </link>
+   <joint name="Head_joint" type="fixed">
+      <child link="Head" />
+      <parent link="Player" />
+      <axis xyz="0 0 0" />
+       <origin rpy="0 0 0" xyz="-1.0 1.0 1.0" />
+      <limit effort="300" lower="0" upper="0" velocity="10" />
+   </joint>
+    <link name="LHand">
+      <sphere_inertia mass="0" radius="0" />
+      <visual>
+         
+         <geometry>
+            <mesh filename="package://kitchenClash/meshes/agent/controller.dae" scale="0.100000 0.100000 0.100000"/>
+         </geometry>
+      </visual>
+   </link>
+   <joint name="LHand_joint" type="fixed">
+      <child link="LHand" />
+      <parent link="Player" />
+      <axis xyz="0 0 0" />
+
+      <limit effort="300" lower="0" upper="0" velocity="10" />
+   </joint>
+    <link name="RHand">
+      <sphere_inertia mass="0" radius="0" />
+         
+      <visual>
+         <origin rpy="0 0 0" xyz="0 0 0" />
+         <geometry>
+            <mesh filename="package://kitchenClash/meshes/agent/controller.dae" scale="0.100000 0.100000 0.100000" />
+         </geometry>
+      </visual>
+   </link>
+   <joint name="RHand_joint" type="fixed">
+      <child link="RHand" />
+      <parent link="Player" />
+      <axis xyz="0 0 0" />
+      <limit effort="300" lower="0" upper="0" velocity="10" />
+   </joint>
+
+
+</robot>

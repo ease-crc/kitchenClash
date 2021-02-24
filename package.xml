@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <package format="2">
-    <name>h_neem</name>
+    <name>kitchenClash</name>
     <version>0.0.0</version>
-    <description>The h_neem package</description>
+    <description>The kitchenClash package</description>
 
     <maintainer email="avyas@uni-bremen.de">Abhijit Vyas</maintainer>
-    <license>BSD</license>
+    <license>TODO</license>
 
 
     <buildtool_depend>catkin</buildtool_depend>

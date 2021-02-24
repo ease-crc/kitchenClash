@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0</authoring_tool>
+    </contributor>
+    <created>2021-02-15T14:46:00</created>
+    <modified>2021-02-15T14:46:00</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="lambert1-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.5 0.5 0.5 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <transparent opaque="A_ONE">
+              <color>1 1 1 1</color>
+            </transparent>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="lambert1-material" name="lambert1">
+      <instance_effect url="#lambert1-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="mesh_220-mesh" name="mesh_220">
+      <mesh>
+        <source id="mesh_220-mesh-positions">
+          <float_array id="mesh_220-mesh-positions-array" count="24">-18.60345 -0.91956 28.5886 -18.60345 -0.91956 -11.534 3.577 -0.91956 -11.534 3.577 -0.91956 28.5886 -18.60345 -0.90956 28.5886 -18.60345 -0.90956 -11.534 3.577 -0.90956 -11.534 3.577 -0.90956 28.5886</float_array>
+          <technique_common>
+            <accessor source="#mesh_220-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesh_220-mesh-normals">
+          <float_array id="mesh_220-mesh-normals-array" count="18">0 -1 0 0 1 0 0 0 1 1 0 0 0 0 -1 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#mesh_220-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mesh_220-mesh-vertices">
+          <input semantic="POSITION" source="#mesh_220-mesh-positions"/>
+        </vertices>
+        <triangles material="lambert1-material" count="12">
+          <input semantic="VERTEX" source="#mesh_220-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#mesh_220-mesh-normals" offset="1"/>
+          <p>0 0 1 0 2 0 0 0 2 0 3 0 4 1 6 1 5 1 4 1 7 1 6 1 3 2 4 2 0 2 2 3 7 3 3 3 1 4 6 4 2 4 0 5 5 5 1 5 3 2 7 2 4 2 2 3 6 3 7 3 1 4 5 4 6 4 0 5 4 5 5 5</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="STATIC_ALL_Floor_Carpet_Grey" name="STATIC_ALL_Floor_Carpet_Grey" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -4.37114e-8 -1 0 0 1 -4.37114e-8 0 0 0 0 1</matrix>
+        <instance_geometry url="#mesh_220-mesh" name="STATIC_ALL_Floor_Carpet_Grey">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert1-material" target="#lambert1-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
